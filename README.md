@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# zuno
+
+[![Homepage](https://zuno-virid.vercel.app)](https://zuno-virid.vercel.app)
+
+zuno is a TypeScript-based project, likely a web application powered by [Next.js](https://nextjs.org/) and [React](https://react.dev/). This repository includes opinionated tooling for linting, form validation, authentication, and UI components, making it a modern full-stack application starter or template.
+
+> **Note:** There is already a `README.md` in the repository. The information below is generated based on the available project metadata, but you may wish to merge or update the existing file.
+
+---
+
+## Features
+
+- **Next.js 15** for server-side rendering and modern React features.
+- **TypeScript** for type-safe JavaScript development.
+- **React 19** as the UI library.
+- **Tailwind CSS 4** for utility-first styling.
+- **Supabase** for backend and database integration.
+- **Clerk** for authentication.
+- **Radix UI** for accessible, unstyled UI primitives.
+- **Zod** and **React Hook Form** for form validation.
+- **Lottie-react** for animations.
+- **Vercel** deployment-ready (see [homepage](https://zuno-virid.vercel.app)).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20+
+- npm (comes with Node.js) or yarn
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/pzwl/zuno.git
+cd zuno
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Development
+
+Start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build & Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build the application for production:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+# or
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Linting
 
-## Deploy on Vercel
+Run the linter:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run lint
+# or
+yarn lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+- `app/` — Main application routes and logic
+- `components/` — React UI components
+- `constants/` — Shared constants
+- `lib/` — Library code and utilities
+- `public/` — Static files
+- `types/` — TypeScript type definitions
+
+## Configuration
+
+- `next.config.ts` — Next.js configuration
+- `tailwind.config.js` & `postcss.config.mjs` — Tailwind and PostCSS setup
+- `eslint.config.mjs` — ESLint rules
+
+## Main Dependencies
+
+- [`next`](https://nextjs.org/)
+- [`react`](https://react.dev/)
+- [`tailwindcss`](https://tailwindcss.com/)
+- [`@clerk/nextjs`](https://clerk.dev/)
+- [`@supabase/supabase-js`](https://supabase.com/docs/reference/javascript)
+- [`@radix-ui/react-*`](https://www.radix-ui.com/)
+- [`zod`](https://zod.dev/)
+- [`react-hook-form`](https://react-hook-form.com/)
+
+For a full list, see [`package.json`](./package.json).
+
+## License
+
+This project currently does **not** specify a license. Please add one if you intend to open source your work.
+
+---
+
+> **Note:** This README was generated based on current metadata. For more details and updates, check the [repository root](https://github.com/pzwl/zuno).

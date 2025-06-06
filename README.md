@@ -2,9 +2,17 @@
 
 [![Homepage](https://zuno-virid.vercel.app)](https://zuno-virid.vercel.app)
 
-zuno is a TypeScript-based project, likely a web application powered by [Next.js](https://nextjs.org/) and [React](https://react.dev/). This repository includes opinionated tooling for linting, form validation, authentication, and UI components, making it a modern full-stack application starter or template.
+**zuno** is a modern web application that lets you create AI-based companions and interact with them on any topic. Whether you want to chat, learn, or explore ideas, zuno provides an engaging conversational experience powered by advanced AI.
 
-> **Note:** There is already a `README.md` in the repository. The information below is generated based on the available project metadata, but you may wish to merge or update the existing file.
+## What is zuno?
+
+zuno enables users to:
+- **Create your own AI companions:** Customize and build digital personalities you can talk to.
+- **Converse about anything:** Ask questions, seek advice, or just chat—your AI companion is always available.
+- **Explore predefined subjects:** Choose from a selection of topics for guided conversations, such as learning with a talking teacher, general discussion, and more.
+- **AI-powered voice interaction:** Leveraging [Vapi AI](https://vapi.ai/), zuno integrates seamless voice conversations, making your digital companions feel more real and interactive.
+
+> **Example:** Use the built-in "Talking Teacher" to practice languages, learn new skills, or get help on various topics—just speak or type your questions!
 
 ---
 
@@ -19,6 +27,7 @@ zuno is a TypeScript-based project, likely a web application powered by [Next.js
 - **Radix UI** for accessible, unstyled UI primitives.
 - **Zod** and **React Hook Form** for form validation.
 - **Lottie-react** for animations.
+- **Vapi AI** for conversational voice AI integration.
 - **Vercel** deployment-ready (see [homepage](https://zuno-virid.vercel.app)).
 
 ## Getting Started
@@ -110,6 +119,7 @@ yarn lint
 - [`@radix-ui/react-*`](https://www.radix-ui.com/)
 - [`zod`](https://zod.dev/)
 - [`react-hook-form`](https://react-hook-form.com/)
+- [`@vapi-ai/web`](https://vapi.ai/)
 
 For a full list, see [`package.json`](./package.json).
 
@@ -119,4 +129,4 @@ This project currently does **not** specify a license. Please add one if you int
 
 ---
 
-> **Note:** This README was generated based on current metadata. For more details and updates, check the [repository root](https://github.com/pzwl/zuno).
+> **Note:** This README was generated based on current metadata and your description. For more details and updates, check the [repository root](https://github.com/pzwl/zuno).

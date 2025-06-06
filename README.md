@@ -1,6 +1,6 @@
-# zuno
+![zuno screenshot](./public/images/Screenshot%202025-06-06%20072535.png)
 
-[![Homepage](https://zuno-virid.vercel.app)](https://zuno-virid.vercel.app)
+# zuno
 
 **zuno** is a modern web application that lets you create AI-based companions and interact with them on any topic. Whether you want to chat, learn, or explore ideas, zuno provides an engaging conversational experience powered by advanced AI.
 
@@ -28,7 +28,7 @@ zuno enables users to:
 - **Zod** and **React Hook Form** for form validation.
 - **Lottie-react** for animations.
 - **Vapi AI** for conversational voice AI integration.
-- **Vercel** deployment-ready (see [homepage](https://zuno-virid.vercel.app)).
+- **Vercel** deployment-ready.
 
 ## Getting Started
 
